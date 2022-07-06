@@ -365,7 +365,7 @@ h6 {
 
 .card {
   height: 10%;
-  width: 18%;
+  width: 20%;
 }
 
 .card:hover {
@@ -435,6 +435,7 @@ h6 {
   color: white;
 }
 
-tr.collapse.in {
-  display: table-row;
+.logo {
+  width: 40px;
+  height: 45px;
 }
