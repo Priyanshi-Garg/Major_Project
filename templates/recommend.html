@@ -281,6 +281,7 @@
           onclick="recommendcard(this)"
         >
           <div class="imghvr">
+            {% if poster %}
             <img
               class="card-img-top"
               height="260"
@@ -288,6 +289,15 @@
               alt="{{details[0]}} - poster"
               src="{{poster}}"
             />
+            {%else%}
+            <img
+              class="card-img-top"
+              height="260"
+              width="200"
+              alt="{{details[0]}} - poster"
+              src="../static/default.jpg"
+            />
+            {%endif%}
             <div class="card-img-overlay">
               <span
                 class="card-text"
